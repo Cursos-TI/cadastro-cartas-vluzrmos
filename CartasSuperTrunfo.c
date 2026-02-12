@@ -84,7 +84,7 @@ int main()
   carta_2_cidade[strcspn(carta_2_cidade, "\n")] = 0;
 
   printf("Carta 2: Digite o Numero de habitantes: ");
-  scanf("%d", &carta_2_populacao);
+  scanf("%lu", &carta_2_populacao);
 
   printf("Carta 2: Digite a Area da cidade em km quadrados: ");
   scanf("%f", &carta_2_area);
