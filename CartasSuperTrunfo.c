@@ -145,17 +145,17 @@ int main()
   printf("PIB per Capita: %.2f reais\n", carta_2_pib_per_capita);
   printf("Super Poder: %.2Lf\n", carta_2_super_poder);
 
-  printf("\n\n");
-
-  printf("Selecione o atributo para comparar:\n");
-  printf("1 - População\n");
-  printf("2 - Área\n");
-  printf("3 - PIB\n");
-  printf("4 - Número de Pontos Turísticos\n");
-  printf("5 - Densidade Populacional\n");
-  printf("6 - PIB per Capita\n");
-  printf("Digite o número do atributo escolhido: ");
-  scanf("%d", &atributo_escolhido);
+  // printf("\n\n");
+  // printf("Selecione o atributo para comparar:\n");
+  // printf("1 - População\n");
+  // printf("2 - Área\n");
+  // printf("3 - PIB\n");
+  // printf("4 - Número de Pontos Turísticos\n");
+  // printf("5 - Densidade Populacional\n");
+  // printf("6 - PIB per Capita\n");
+  // printf("Digite o número do atributo escolhido: ");
+  // scanf("%d", &atributo_escolhido);
+  atributo_escolhido = 1; // Escolha direta do atributo para comparação (População)
 
   // FECHA O PROGRAMA SE O USUÁRIO DIGITAR UM ATRIBUTO INVÁLIDO
   if (atributo_escolhido < 1 || atributo_escolhido > 6) {
