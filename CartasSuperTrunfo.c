@@ -244,7 +244,7 @@ int main()
   }
   else if (atributo_escolhido == 5)
   {
-    printf("%d (%s) venceu\n", (carta_1_densidade_populacional > carta_2_densidade_populacional) ? 1 : 2, (carta_1_densidade_populacional > carta_2_densidade_populacional) ? carta_1_cidade : carta_2_cidade);
+    printf("%d (%s) venceu\n", (carta_1_densidade_populacional < carta_2_densidade_populacional) ? 1 : 2, (carta_1_densidade_populacional < carta_2_densidade_populacional) ? carta_1_cidade : carta_2_cidade);
   }
   else if (atributo_escolhido == 6)
   {
